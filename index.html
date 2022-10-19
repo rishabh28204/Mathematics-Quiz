@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="mathgame.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="score">
+            Score: <span id="scorenum">0</span>
+        </div>
+        <div id="correct">
+            correct
+        </div>
+        <div id="wrong">
+            Try Again!
+        </div>
+        <div id="display">
+
+        </div>
+        <div id="instruction">
+            <h3>Click on correct Answer</h3>
+        </div>
+        <div id="option">
+            <div class="option1" id="box1"></div>
+            <div class="option1" id="box2"></div>
+            <div class="option1" id="box3"></div>
+            <div class="option1" id="box4"></div>
+        </div>
+        <div id="reset">
+            <button id="resetbutton" onclick="startgame()">Start Game</button>
+        </div>
+        <div id="gameover">
+            <p>Game Over!</p>
+            <p>Your Score is: <span id="gamescore">0</span></p>
+        </div>
+        <div id="timeremaining">Time Remaining: <span id="remainingtime">60</span> Sec</div>
+    </div>
+    <script src="mathgame.js"></script>
+</body>
+
+</html>
